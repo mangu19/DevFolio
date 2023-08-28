@@ -226,19 +226,36 @@ a:hover {
   width: 40px;
   font-size: 1.2rem;
   border-radius: 50%;
-  line-height: 1.6;
+  line-height: 2;
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
 }
 
-.socials .ico-circle:hover {
-  background-color: #0078ff;
+.socials .in:hover {
+  background-color: #d62976;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
-
+.socials .wp:hover {
+  background-color: green;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+.socials .fb:hover {
+  background-color: #4267B2;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+.socials .link:hover {
+  background-color: #0072b1;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
 /*------/ Ul resect /------*/
 .ul-resect,
 .widget-tags ul,
@@ -869,6 +886,7 @@ a:hover {
   border-radius: 1rem;
   margin-bottom: 3rem;
   text-align: center;
+  
 }
 
 .service-box:hover .ico-circle {
